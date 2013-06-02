@@ -1,0 +1,4 @@
+folium
+lxml
+matplotlib==1.1.1
+numpy
