@@ -37,7 +37,7 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
         
 def main():
     if len(sys.argv) < 3:
-        print("run me with BikePaths.kmz zoneatlaspagegrid.kmz out.json")
+        print("Try running me with: ./%s BikePaths.kmz zoneatlaspagegrid.kmz out.json" % sys.argv[0])
         sys.exit(1)
 
     bikepathfile = open(sys.argv[1])
