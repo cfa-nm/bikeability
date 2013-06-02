@@ -10,4 +10,6 @@ We'll see what happens from there.
 
 Data sources:
 
-{ABQ Data}(http://www.cabq.gov/abq-data)
+[ABQ Data](http://www.cabq.gov/abq-data)
+* [Bike Paths](http://data.cabq.gov/community/bikepaths/)
+* [Zone Atlas](http://data.cabq.gov/business/zoneatlas/)
