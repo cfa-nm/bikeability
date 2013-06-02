@@ -1,10 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from __future__ import print_function, unicode_literals
+
 # bikedata2json.py
 
 # Read in zone and path data. Output bikeability data in JSON for further processing and visualization.
 
+import json
+import sys
+
 import bikepathparse
 import pathinsquare
-import json
 
 def bikedata2json(bikepathfile, zonefile, jsonfile):
     # Get the data in a usable format. Assume you've unzipped the kmz files manually.
@@ -29,9 +36,15 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
         ofile.write(json.dumps(tempdict))
         
 def main():
+    if len(sys.argv) < 3:
+        print("run me with BikePaths.kmz zoneatlaspagegrid.kmz out.json")
+        sys.exit(1)
+
     bikepathfile = open(sys.argv[1])
     zonefile = open(sys.argv[2])
-    jsonfile = open(sys.argv[3])
+    jsonfile = open(sys.argv[3], 'w')
+
+    bikedata2json(bikepathfile, zonefile, jsonfile)
 
 if __name__ == '__main__':
     main()
