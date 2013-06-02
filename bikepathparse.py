@@ -14,10 +14,10 @@ def bikepathparse(filename):
     # Extract all path elements
     bps = bptree.findall('//'+kmlns+'coordinates')
 
-    # Reformat each path into a set of lat/long coordinates, dropping altitude (zero anyway)
+    # Reformat each path into a set of lat/long coordinates as floats, dropping altitude (zero anyway)
     paths = []
     for bp in bps:
-        paths += [[x.split(',')[:2] for x in bp.text.split()]]
+        paths += [[map(float,x.split(',')[:2]) for x in bp.text.split()]]
     
     return paths
 
@@ -33,11 +33,11 @@ def zoneparse(filename):
     znames = [x.text for x in znames] 
     zcoords = ztree.findall('//'+kmlns+'coordinates')
 
-    # Reformat each boundary into a set of lat/long coordinates, dropping altitude (zero anyway)
+    # Reformat each boundary into a set of lat/long coordinates as floats, dropping altitude (zero anyway)
     # Dropping "redundant" 5th point on square
     bounds = []
     for zcoord in zcoords:
-        bounds += [[x.split(',')[:2] for x in zcoord.text.split()][:-1]]  
+        bounds += [[map(float,x.split(',')[:2]) for x in zcoord.text.split()][:-1]]  
         
     # Group zone name and boundary coordinates
     zones = zip(znames,bounds)
