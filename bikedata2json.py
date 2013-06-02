@@ -26,6 +26,9 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
     
     # Write JSON file with square name, path count, normalized count, square boundary coordinates
     ofile = open(jsonfile,'w')
+
+    # Output data structure
+    out_ds = []
     
     for s in squares:
         tempdict = {}
@@ -33,7 +36,10 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
         tempdict['paths'] = s[1]
         tempdict['pathsnorm'] = s[1]/float(maxcount)
         tempdict['coordinates'] = s[2]
-        ofile.write(json.dumps(tempdict))
+        out_ds.append(tempdict)
+
+    ofile.write(json.dumps(out_ds, indent=4, separators=(',', ': ')))
+    ofile.close()
         
 def main():
     if len(sys.argv) < 3:
@@ -42,9 +48,8 @@ def main():
 
     bikepathfile = open(sys.argv[1])
     zonefile = open(sys.argv[2])
-    jsonfile = open(sys.argv[3], 'w')
 
-    bikedata2json(bikepathfile, zonefile, jsonfile)
+    bikedata2json(bikepathfile, zonefile, sys.argv[3])
 
 if __name__ == '__main__':
     main()
