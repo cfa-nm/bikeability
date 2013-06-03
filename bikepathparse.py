@@ -34,10 +34,9 @@ def zoneparse(filename):
     zcoords = ztree.findall('//'+kmlns+'coordinates')
 
     # Reformat each boundary into a set of lat/long coordinates as floats, dropping altitude (zero anyway)
-    # Dropping "redundant" 5th point on square
     bounds = []
     for zcoord in zcoords:
-        bounds += [[map(float,x.split(',')[:2]) for x in zcoord.text.split()][:-1]]  
+        bounds += [[map(float,x.split(',')[:2]) for x in zcoord.text.split()]]  
         
     # Group zone name and boundary coordinates
     zones = zip(znames,bounds)

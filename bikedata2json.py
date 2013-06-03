@@ -48,9 +48,6 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
         t['properties'] = properties
 
         coordinates = s[2]
-        # Create a closed GeoJSON polygon by re-adding 1st point again as the
-        #  last point
-        coordinates.append(coordinates[0])
                                            
         polygon_feature = {'type': 'Polygon',
                            'coordinates': [] }
