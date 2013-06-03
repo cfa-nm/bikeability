@@ -12,8 +12,11 @@ import sys
 
 import folium
 
+import pandas as pd
+
 import bikepathparse
 import pathinsquare
+
 
 def bikedata2json(bikepathfile, zonefile, jsonfile):
     # Get the data in a usable format. Assume you've unzipped the kmz files manually.
@@ -34,16 +37,24 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
                     'properties': {}, # various properties (numbers of paths, etc)
                     'geometry': {} }
 
-
     # Output data structure
     out_ds = []
+
+    pandas_indexes = []
+    pandas_series = []
     
     for s in squares:
+        num_paths = s[1]
+
+        # If no paths in a square, avoid outputting any data for it
+        if num_paths < 1:
+            continue
+
         t = geojson_tmpl.copy()
         t['id'] = s[0]
 
         properties = {}
-        properties['paths'] = s[1]
+        properties['paths'] = num_paths
         properties['pathsnorm'] = s[1]/float(maxcount)
         t['properties'] = properties
 
@@ -56,8 +67,18 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
 
         out_ds.append(t)
 
+        pandas_indexes.append(s[0])
+        pandas_series.append({'label': s[0],
+                              'paths': properties['paths'],
+                              'pathsnorm': properties['pathsnorm']})
+
     ofile.write(json.dumps(out_ds, indent=4, separators=(',', ': ')))
     ofile.close()
+
+    df = pd.DataFrame(pandas_series, index=pandas_indexes)
+
+    return df
+
         
 def main():
     if len(sys.argv) < 3:
@@ -68,13 +89,15 @@ def main():
     zonefile = open(sys.argv[2])
     json_path = sys.argv[3]
 
-    bikedata2json(bikepathfile, zonefile, json_path)
+    df = bikedata2json(bikepathfile, zonefile, json_path)
 
     # Create map
     abq_centerpoint = [35.0841034, -106.6509851]
     map = folium.Map(location=abq_centerpoint)
-    map.geo_json(geo_path=json_path,
-                 fill_color='YlGn', fill_opacity=0.7, line_opacity=0.2,)
+    map.geo_json(geo_path=json_path, data_out='data.json', data=df,
+                 columns=['label', 'paths'],
+                 key_on='feature.id',
+                 fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
     map.create_map(path="map.html")
 
 if __name__ == '__main__':
