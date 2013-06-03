@@ -3,6 +3,9 @@
 # Determine how many bike paths have intersected a given square mile of the city.
 # In which we throw optimization to the wind.
 
+import itertools
+import multiprocessing
+
 import matplotlib.nxutils as nx # Deprecated as of matplotlib 1.2.0, use matplotlib.path instead and related functions
 from math import sqrt
 
@@ -52,8 +55,10 @@ def splitpoints(p1,p2):
     return [x,y]
     
     
-def pathtally(paths,square):
+def pathtally(args):
     '''Tally the number of paths that intersect the given square.'''
+
+    square, paths = args
     
     tally = 0
     
@@ -67,10 +72,21 @@ def pathtally(paths,square):
     
 def pathinsquare(paths,squares):
     '''Process paths and squares. Returning list of squares with count of intersecting paths.'''
+    pool = multiprocessing.Pool()
     
-    paths = [insertpoints(path) for path in paths]
+    paths = pool.map(insertpoints, paths)
     
-    squares = [[name,pathtally(paths,square),square] for name,square in squares]
+    #squares = [[name,pathtally(paths,square),square] for name,square in squares]
+    names = [i[0] for i in squares]
+    square_objects = [i[1] for i in squares]
+    #tallies = [pathtally(i[1], paths) for i in squares]
+
+    pool = multiprocessing.Pool()
+    tallies = pool.map(pathtally,
+                       zip(square_objects, itertools.repeat(paths)),
+                       chunksize=100)
+
+    squares = zip(names, tallies, square_objects)
     
     return squares
     
