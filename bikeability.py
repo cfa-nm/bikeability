@@ -85,7 +85,7 @@ def genmap(geojsonfile, mapfile):
     
     # Create map
     abq_centerpoint = [35.0841034, -106.6509851]
-    map = folium.Map(location=abq_centerpoint)
+    map = folium.Map(location=abq_centerpoint, tiles='Stamen Toner')
     map.geo_json(geo_path=geojsonfile, data_out='data.json', data=df,
                  columns=['label', 'paths'],
                  key_on='feature.id',
