@@ -39,9 +39,6 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
 
     # Output data structure
     out_ds = []
-
-    pandas_indexes = []
-    pandas_series = []
     
     for s in squares:
         num_paths = s[1]
@@ -67,17 +64,33 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
 
         out_ds.append(t)
 
-        pandas_indexes.append(s[0])
-        pandas_series.append({'label': s[0],
-                              'paths': properties['paths'],
-                              'pathsnorm': properties['pathsnorm']})
-
     ofile.write(json.dumps(out_ds, indent=4, separators=(',', ': ')))
     ofile.close()
-
+    
+def genmap(geojsonfile, mapfile):
+    '''Generate HTML map of Albuquerque and city squares using GeoJSON data.'''
+    
+    geojson = json.load(open(geojsonfile))
+    
+    # Build pandas dataframe of zone bike path "densities"
+    pandas_indexes = []
+    pandas_series = []
+    for g in geojson:
+        pandas_indexes.append(g['id'])
+        pandas_series.append({'label': g['id'],
+                              'paths': g['properties']['paths'],
+                              'pathsnorm': g['properties']['pathsnorm']})
+                              
     df = pd.DataFrame(pandas_series, index=pandas_indexes)
-
-    return df
+    
+    # Create map
+    abq_centerpoint = [35.0841034, -106.6509851]
+    map = folium.Map(location=abq_centerpoint)
+    map.geo_json(geo_path=geojsonfile, data_out='data.json', data=df,
+                 columns=['label', 'paths'],
+                 key_on='feature.id',
+                 fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
+    map.create_map(path=mapfile)
 
         
 def main():
@@ -89,16 +102,9 @@ def main():
     zonefile = open(sys.argv[2])
     json_path = sys.argv[3]
 
-    df = bikedata2json(bikepathfile, zonefile, json_path)
-
-    # Create map
-    abq_centerpoint = [35.0841034, -106.6509851]
-    map = folium.Map(location=abq_centerpoint)
-    map.geo_json(geo_path=json_path, data_out='data.json', data=df,
-                 columns=['label', 'paths'],
-                 key_on='feature.id',
-                 fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
-    map.create_map(path="map.html")
+    bikedata2json(bikepathfile, zonefile, json_path)
+    
+    genmap(json_path, 'map.html')
 
 if __name__ == '__main__':
     main()
