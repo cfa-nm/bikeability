@@ -59,7 +59,7 @@ def pathtally(paths,square):
     
     for path in paths:
         for point in path:
-            if nx.pnpoly(point[0],point[1],square[:5]):
+            if nx.pnpoly(point[0],point[1],square[:-1]):
                 tally += 1
                 break
     
