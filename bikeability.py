@@ -95,7 +95,7 @@ def genmap(geojsonfile, mapfile):
         
 def main():
     if len(sys.argv) < 3:
-        print("Try running me with: ./%s BikePaths.kmz zoneatlaspagegrid.kmz out.json" % sys.argv[0])
+        print("Try running me with: ./%s BikePaths.kml zoneatlaspagegrid.kml ABQsquares.json" % sys.argv[0])
         sys.exit(1)
 
     bikepathfile = open(sys.argv[1])
