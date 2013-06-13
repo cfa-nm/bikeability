@@ -31,3 +31,6 @@ setup a virtualenv (recommended) and install requirements:
     source venv/bin/activate
     pip install -r requirements.txt
     
+And then run:
+
+    ./bikeability.py BikePaths.kml zoneatlaspagegrid.kml output/ABQsquares.json

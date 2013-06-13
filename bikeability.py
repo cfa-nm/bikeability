@@ -87,7 +87,7 @@ def genmap(geojsonfile, mapfile):
     # Create map
     abq_centerpoint = [35.0841034, -106.6509851]
     map = folium.Map(location=abq_centerpoint, tiles='Stamen Toner')
-    map.geo_json(geo_path=geojsonfile, data_out='data.json', data=df,
+    map.geo_json(geo_path=geojsonfile, data_out='output/data.json', data=df,
                  columns=['label', 'paths'],
                  key_on='feature.id',
                  fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
@@ -96,7 +96,7 @@ def genmap(geojsonfile, mapfile):
         
 def main():
     if len(sys.argv) < 3:
-        print("Try running me with: ./%s BikePaths.kml zoneatlaspagegrid.kml ABQsquares.json" % sys.argv[0])
+        print("Try running me with: ./%s BikePaths.kml zoneatlaspagegrid.kml output/ABQsquares.json" % sys.argv[0])
         sys.exit(1)
 
     bikepathfile = open(sys.argv[1])
@@ -105,7 +105,7 @@ def main():
 
     bikedata2json(bikepathfile, zonefile, json_path)
     
-    genmap(json_path, 'map.html')
+    genmap(json_path, 'output/map.html')
 
 if __name__ == '__main__':
     main()
