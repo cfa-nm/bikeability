@@ -10,6 +10,9 @@ from __future__ import print_function, unicode_literals
 import json
 import sys
 
+import os
+import shutil
+
 import folium
 import jinja2
 
@@ -87,11 +90,15 @@ def genmap(geojsonfile, mapfile):
     # Create map
     abq_centerpoint = [35.0841034, -106.6509851]
     map = folium.Map(location=abq_centerpoint, tiles='Stamen Toner')
-    map.geo_json(geo_path=geojsonfile, data_out='output/data.json', data=df,
+    map.geo_json(geo_path=geojsonfile.replace('output/', ''), data_out='data.json', data=df,
                  columns=['label', 'paths'],
                  key_on='feature.id',
                  fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
     map.create_map(path=mapfile, template=open('map.jinja2').read())
+
+    # HACK: output file generated in the wrong place…
+    os.remove('output/data.json')
+    shutil.move('data.json', 'output/')
 
         
 def main():
