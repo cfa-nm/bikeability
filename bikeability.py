@@ -11,6 +11,7 @@ import json
 import sys
 
 import folium
+import jinja2
 
 import pandas as pd
 
@@ -90,7 +91,7 @@ def genmap(geojsonfile, mapfile):
                  columns=['label', 'paths'],
                  key_on='feature.id',
                  fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
-    map.create_map(path=mapfile)
+    map.create_map(path=mapfile, template=open('map.jinja2').read())
 
         
 def main():
