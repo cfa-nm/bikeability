@@ -26,7 +26,10 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
     # Get the data in a usable format. Assume you've unzipped the kmz files manually.
     paths = bikepathparse.bikepathparse(bikepathfile)
     squares = bikepathparse.zoneparse(zonefile)
-    
+
+    # Weight different path types
+    paths = bikepathweight.pathweight(paths)    
+
     # List formatted squares with tallies of path intersections
     squares = pathinsquare.pathinsquare(paths,squares)
     
