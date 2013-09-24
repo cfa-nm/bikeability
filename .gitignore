@@ -4,3 +4,4 @@ venv3
 *.pyc
 *.pyo
 *.kmz
+*~
