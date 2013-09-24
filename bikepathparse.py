@@ -6,20 +6,34 @@ import lxml.etree
 kmlns = '{http://earth.google.com/kml/2.2}'
 
 def bikepathparse(filename):
-    '''Parse KML bike paths file and return list of paths as lists of coordinate points.'''
+    '''Parse KML bike paths file and return path list of dictionaries with lists of coordinate points and metadata.'''
 
     # Parse KML file
     bptree = lxml.etree.parse(filename)
 
     # Extract all path elements
-    bps = bptree.findall('//'+kmlns+'coordinates')
+    pcoords = bptree.findall('//'+kmlns+'coordinates')
 
     # Reformat each path into a set of lat/long coordinates as floats, dropping altitude (zero anyway)
     paths = []
-    for bp in bps:
-        paths += [[map(float,x.split(',')[:2]) for x in bp.text.split()]]
-    
-    return paths
+    for pcoord in pcoords:
+        paths += [[map(float,x.split(',')[:2]) for x in pcoord.text.split()]]
+
+    # Extract all metadata elements
+    mds = bptree.findall('//'+kmlns+'description')
+
+    # Build dictionary with path coordinates and metadata
+    bpaths = []
+
+    for i in range(len(pcoords)):
+        # Extract path type, name, and length (miles) from embedded HTML
+        ptype,pname,plen = lxml.html.fromstring(mds[i].text).text_content().split('\n\n')[5:-2][0::2]
+        if ptype == '&lt;Null&gt;':
+            ptype = 'Null'
+        
+        bpaths += [{'type':ptype,'name':pname,'length':plen,'coordinates':paths[i]}]
+
+    return bpaths
 
 
 def zoneparse(filename):
