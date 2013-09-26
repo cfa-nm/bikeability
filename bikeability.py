@@ -27,9 +27,6 @@ def bikedata2json(bikepathfile, zonefile, jsonfile):
     paths = bikepathparse.bikepathparse(bikepathfile)
     squares = bikepathparse.zoneparse(zonefile)
 
-    # Weight different path types
-    paths = bikepathweight.pathweight(paths)    
-
     # List formatted squares with tallies of path intersections
     squares = pathinsquare.pathinsquare(paths,squares)
     
@@ -92,12 +89,12 @@ def genmap(geojsonfile, mapfile):
     
     # Create map
     abq_centerpoint = [35.0841034, -106.6509851]
-    map = folium.Map(location=abq_centerpoint, tiles='Stamen Toner')
-    map.geo_json(geo_path=geojsonfile.replace('output/', ''), data_out='data.json', data=df,
+    folmap = folium.Map(location=abq_centerpoint, tiles='Stamen Toner')
+    folmap.geo_json(geo_path=geojsonfile.replace('output/', ''), data_out='data.json', data=df,
                  columns=['label', 'paths'],
                  key_on='feature.id',
                  fill_color='YlGn', fill_opacity=0.5, line_opacity=0.2)
-    map.create_map(path=mapfile, template=open('map.jinja2').read())
+    folmap.create_map(path=mapfile, template=open('map.jinja2').read())
 
     # HACK: output file generated in the wrong place…
     os.remove('output/data.json')

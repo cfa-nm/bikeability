@@ -30,8 +30,8 @@
         "type": "Feature",
         "id": "A8",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -65,8 +65,8 @@
         "type": "Feature",
         "id": "A9",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 5.5,
+            "pathsnorm": 0.10377358490566038
         }
     },
     {
@@ -100,8 +100,8 @@
         "type": "Feature",
         "id": "A10",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 7.5,
+            "pathsnorm": 0.14150943396226415
         }
     },
     {
@@ -135,8 +135,8 @@
         "type": "Feature",
         "id": "A11",
         "properties": {
-            "paths": 14,
-            "pathsnorm": 0.25
+            "paths": 11.0,
+            "pathsnorm": 0.20754716981132076
         }
     },
     {
@@ -170,8 +170,8 @@
         "type": "Feature",
         "id": "A12",
         "properties": {
-            "paths": 18,
-            "pathsnorm": 0.32142857142857145
+            "paths": 14.0,
+            "pathsnorm": 0.2641509433962264
         }
     },
     {
@@ -205,8 +205,8 @@
         "type": "Feature",
         "id": "A13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 6.0,
+            "pathsnorm": 0.11320754716981132
         }
     },
     {
@@ -240,78 +240,8 @@
         "type": "Feature",
         "id": "A14",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.621801,
-                        35.217671
-                    ],
-                    [
-                        -106.621735,
-                        35.203165
-                    ],
-                    [
-                        -106.639484,
-                        35.20311
-                    ],
-                    [
-                        -106.639553,
-                        35.217616
-                    ],
-                    [
-                        -106.621801,
-                        35.217671
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "A15",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.568544,
-                        35.217823
-                    ],
-                    [
-                        -106.568488,
-                        35.203317
-                    ],
-                    [
-                        -106.586237,
-                        35.203269
-                    ],
-                    [
-                        -106.586296,
-                        35.217775
-                    ],
-                    [
-                        -106.568544,
-                        35.217823
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "A18",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.1,
+            "pathsnorm": 0.020754716981132078
         }
     },
     {
@@ -345,8 +275,8 @@
         "type": "Feature",
         "id": "B8",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 6.0,
+            "pathsnorm": 0.11320754716981132
         }
     },
     {
@@ -380,7 +310,7 @@
         "type": "Feature",
         "id": "B9",
         "properties": {
-            "paths": 56,
+            "paths": 53.0,
             "pathsnorm": 1.0
         }
     },
@@ -415,8 +345,8 @@
         "type": "Feature",
         "id": "B10",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 9.5,
+            "pathsnorm": 0.1792452830188679
         }
     },
     {
@@ -450,8 +380,8 @@
         "type": "Feature",
         "id": "B11",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.5,
+            "pathsnorm": 0.08490566037735849
         }
     },
     {
@@ -485,8 +415,8 @@
         "type": "Feature",
         "id": "B12",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 5.0,
+            "pathsnorm": 0.09433962264150944
         }
     },
     {
@@ -520,8 +450,8 @@
         "type": "Feature",
         "id": "B13",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -555,8 +485,8 @@
         "type": "Feature",
         "id": "B14",
         "properties": {
-            "paths": 12,
-            "pathsnorm": 0.21428571428571427
+            "paths": 9.899999999999999,
+            "pathsnorm": 0.18679245283018867
         }
     },
     {
@@ -590,8 +520,8 @@
         "type": "Feature",
         "id": "B15",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.5,
+            "pathsnorm": 0.04716981132075472
         }
     },
     {
@@ -625,8 +555,8 @@
         "type": "Feature",
         "id": "B16",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -660,8 +590,8 @@
         "type": "Feature",
         "id": "B17",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 5.6,
+            "pathsnorm": 0.10566037735849056
         }
     },
     {
@@ -695,8 +625,8 @@
         "type": "Feature",
         "id": "B18",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -730,113 +660,8 @@
         "type": "Feature",
         "id": "B19",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.532989,
-                        35.203405
-                    ],
-                    [
-                        -106.532939,
-                        35.188899
-                    ],
-                    [
-                        -106.550685,
-                        35.188856
-                    ],
-                    [
-                        -106.550738,
-                        35.203362
-                    ],
-                    [
-                        -106.532989,
-                        35.203405
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "B20",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.51524,
-                        35.203445
-                    ],
-                    [
-                        -106.515193,
-                        35.188939
-                    ],
-                    [
-                        -106.532939,
-                        35.188899
-                    ],
-                    [
-                        -106.532989,
-                        35.203405
-                    ],
-                    [
-                        -106.51524,
-                        35.203445
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "B21",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.49749,
-                        35.203483
-                    ],
-                    [
-                        -106.497446,
-                        35.188976
-                    ],
-                    [
-                        -106.515193,
-                        35.188939
-                    ],
-                    [
-                        -106.51524,
-                        35.203445
-                    ],
-                    [
-                        -106.49749,
-                        35.203483
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "B22",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.7,
+            "pathsnorm": 0.03207547169811321
         }
     },
     {
@@ -870,8 +695,8 @@
         "type": "Feature",
         "id": "B23",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.2,
+            "pathsnorm": 0.022641509433962263
         }
     },
     {
@@ -905,8 +730,8 @@
         "type": "Feature",
         "id": "C7",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -940,8 +765,8 @@
         "type": "Feature",
         "id": "C8",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -975,8 +800,8 @@
         "type": "Feature",
         "id": "C9",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -1010,8 +835,8 @@
         "type": "Feature",
         "id": "C11",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -1045,8 +870,8 @@
         "type": "Feature",
         "id": "C12",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 6.5,
+            "pathsnorm": 0.12264150943396226
         }
     },
     {
@@ -1080,8 +905,8 @@
         "type": "Feature",
         "id": "C13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.1,
+            "pathsnorm": 0.07735849056603773
         }
     },
     {
@@ -1115,8 +940,8 @@
         "type": "Feature",
         "id": "C14",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 5.7,
+            "pathsnorm": 0.10754716981132076
         }
     },
     {
@@ -1150,8 +975,8 @@
         "type": "Feature",
         "id": "C15",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.4,
+            "pathsnorm": 0.08301886792452831
         }
     },
     {
@@ -1185,8 +1010,8 @@
         "type": "Feature",
         "id": "C16",
         "properties": {
-            "paths": 14,
-            "pathsnorm": 0.25
+            "paths": 10.999999999999998,
+            "pathsnorm": 0.2075471698113207
         }
     },
     {
@@ -1220,8 +1045,8 @@
         "type": "Feature",
         "id": "C17",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.1,
+            "pathsnorm": 0.03962264150943397
         }
     },
     {
@@ -1255,8 +1080,8 @@
         "type": "Feature",
         "id": "C18",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -1290,8 +1115,8 @@
         "type": "Feature",
         "id": "C19",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.5,
+            "pathsnorm": 0.08490566037735849
         }
     },
     {
@@ -1325,8 +1150,8 @@
         "type": "Feature",
         "id": "C20",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1360,8 +1185,8 @@
         "type": "Feature",
         "id": "C21",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -1395,8 +1220,8 @@
         "type": "Feature",
         "id": "C22",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1430,8 +1255,8 @@
         "type": "Feature",
         "id": "C23",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1465,8 +1290,8 @@
         "type": "Feature",
         "id": "D8",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -1500,8 +1325,8 @@
         "type": "Feature",
         "id": "D9",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1535,8 +1360,8 @@
         "type": "Feature",
         "id": "D10",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -1570,8 +1395,8 @@
         "type": "Feature",
         "id": "D11",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 5.800000000000001,
+            "pathsnorm": 0.10943396226415096
         }
     },
     {
@@ -1605,8 +1430,8 @@
         "type": "Feature",
         "id": "D12",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.6,
+            "pathsnorm": 0.08679245283018867
         }
     },
     {
@@ -1640,8 +1465,8 @@
         "type": "Feature",
         "id": "D13",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -1675,8 +1500,8 @@
         "type": "Feature",
         "id": "D14",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1710,8 +1535,8 @@
         "type": "Feature",
         "id": "D16",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 6.199999999999999,
+            "pathsnorm": 0.11698113207547169
         }
     },
     {
@@ -1745,8 +1570,8 @@
         "type": "Feature",
         "id": "D17",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 3.6,
+            "pathsnorm": 0.06792452830188679
         }
     },
     {
@@ -1780,8 +1605,8 @@
         "type": "Feature",
         "id": "D18",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.7,
+            "pathsnorm": 0.0509433962264151
         }
     },
     {
@@ -1815,8 +1640,8 @@
         "type": "Feature",
         "id": "D19",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 4.3,
+            "pathsnorm": 0.08113207547169811
         }
     },
     {
@@ -1850,8 +1675,8 @@
         "type": "Feature",
         "id": "D20",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 6.8,
+            "pathsnorm": 0.12830188679245283
         }
     },
     {
@@ -1885,8 +1710,8 @@
         "type": "Feature",
         "id": "D21",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 7.0,
+            "pathsnorm": 0.1320754716981132
         }
     },
     {
@@ -1920,8 +1745,8 @@
         "type": "Feature",
         "id": "D22",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1955,8 +1780,8 @@
         "type": "Feature",
         "id": "D23",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -1990,8 +1815,8 @@
         "type": "Feature",
         "id": "A",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 5.7,
+            "pathsnorm": 0.10754716981132076
         }
     },
     {
@@ -2025,8 +1850,8 @@
         "type": "Feature",
         "id": "E11",
         "properties": {
-            "paths": 19,
-            "pathsnorm": 0.3392857142857143
+            "paths": 11.3,
+            "pathsnorm": 0.21320754716981133
         }
     },
     {
@@ -2060,8 +1885,8 @@
         "type": "Feature",
         "id": "E12",
         "properties": {
-            "paths": 16,
-            "pathsnorm": 0.2857142857142857
+            "paths": 9.0,
+            "pathsnorm": 0.16981132075471697
         }
     },
     {
@@ -2095,8 +1920,8 @@
         "type": "Feature",
         "id": "E13",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -2130,8 +1955,8 @@
         "type": "Feature",
         "id": "E15",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.2,
+            "pathsnorm": 0.022641509433962263
         }
     },
     {
@@ -2165,8 +1990,8 @@
         "type": "Feature",
         "id": "E16",
         "properties": {
-            "paths": 19,
-            "pathsnorm": 0.3392857142857143
+            "paths": 16.599999999999998,
+            "pathsnorm": 0.3132075471698113
         }
     },
     {
@@ -2200,8 +2025,8 @@
         "type": "Feature",
         "id": "E17",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -2235,8 +2060,8 @@
         "type": "Feature",
         "id": "E18",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.5,
+            "pathsnorm": 0.08490566037735849
         }
     },
     {
@@ -2270,8 +2095,8 @@
         "type": "Feature",
         "id": "E19",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 6.5,
+            "pathsnorm": 0.12264150943396226
         }
     },
     {
@@ -2305,8 +2130,8 @@
         "type": "Feature",
         "id": "E20",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 3.7,
+            "pathsnorm": 0.06981132075471698
         }
     },
     {
@@ -2340,8 +2165,8 @@
         "type": "Feature",
         "id": "E21",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.2,
+            "pathsnorm": 0.041509433962264156
         }
     },
     {
@@ -2375,8 +2200,8 @@
         "type": "Feature",
         "id": "E22",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.2,
+            "pathsnorm": 0.022641509433962263
         }
     },
     {
@@ -2410,8 +2235,8 @@
         "type": "Feature",
         "id": "E23",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 7.0,
+            "pathsnorm": 0.1320754716981132
         }
     },
     {
@@ -2445,8 +2270,8 @@
         "type": "Feature",
         "id": "F10",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.5,
+            "pathsnorm": 0.04716981132075472
         }
     },
     {
@@ -2480,8 +2305,8 @@
         "type": "Feature",
         "id": "F11",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 5.5,
+            "pathsnorm": 0.10377358490566038
         }
     },
     {
@@ -2515,8 +2340,8 @@
         "type": "Feature",
         "id": "F12",
         "properties": {
-            "paths": 14,
-            "pathsnorm": 0.25
+            "paths": 10.7,
+            "pathsnorm": 0.20188679245283017
         }
     },
     {
@@ -2550,8 +2375,8 @@
         "type": "Feature",
         "id": "F13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.1,
+            "pathsnorm": 0.07735849056603773
         }
     },
     {
@@ -2585,43 +2410,8 @@
         "type": "Feature",
         "id": "F14",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.621471,
-                        35.14514
-                    ],
-                    [
-                        -106.621405,
-                        35.130634
-                    ],
-                    [
-                        -106.639138,
-                        35.130579
-                    ],
-                    [
-                        -106.639207,
-                        35.145085
-                    ],
-                    [
-                        -106.621471,
-                        35.14514
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "F15",
-        "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.6,
+            "pathsnorm": 0.03018867924528302
         }
     },
     {
@@ -2655,8 +2445,8 @@
         "type": "Feature",
         "id": "F16",
         "properties": {
-            "paths": 23,
-            "pathsnorm": 0.4107142857142857
+            "paths": 18.4,
+            "pathsnorm": 0.3471698113207547
         }
     },
     {
@@ -2690,8 +2480,8 @@
         "type": "Feature",
         "id": "F17",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 1.2999999999999998,
+            "pathsnorm": 0.02452830188679245
         }
     },
     {
@@ -2725,8 +2515,8 @@
         "type": "Feature",
         "id": "F18",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 4.0,
+            "pathsnorm": 0.07547169811320754
         }
     },
     {
@@ -2760,8 +2550,8 @@
         "type": "Feature",
         "id": "F19",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -2795,8 +2585,8 @@
         "type": "Feature",
         "id": "F20",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 6.3,
+            "pathsnorm": 0.11886792452830189
         }
     },
     {
@@ -2830,8 +2620,8 @@
         "type": "Feature",
         "id": "F21",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 2.8000000000000003,
+            "pathsnorm": 0.052830188679245285
         }
     },
     {
@@ -2865,8 +2655,8 @@
         "type": "Feature",
         "id": "F22",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 2.9000000000000004,
+            "pathsnorm": 0.05471698113207548
         }
     },
     {
@@ -2900,8 +2690,8 @@
         "type": "Feature",
         "id": "F23",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 3.1,
+            "pathsnorm": 0.05849056603773585
         }
     },
     {
@@ -2935,8 +2725,8 @@
         "type": "Feature",
         "id": "G9",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -2970,8 +2760,8 @@
         "type": "Feature",
         "id": "G10",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 6.0,
+            "pathsnorm": 0.11320754716981132
         }
     },
     {
@@ -3005,8 +2795,8 @@
         "type": "Feature",
         "id": "G11",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -3040,8 +2830,8 @@
         "type": "Feature",
         "id": "G12",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
+            "paths": 8.899999999999999,
+            "pathsnorm": 0.16792452830188676
         }
     },
     {
@@ -3075,8 +2865,8 @@
         "type": "Feature",
         "id": "G13",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -3110,8 +2900,8 @@
         "type": "Feature",
         "id": "G14",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 4.3,
+            "pathsnorm": 0.08113207547169811
         }
     },
     {
@@ -3145,8 +2935,8 @@
         "type": "Feature",
         "id": "G15",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.1,
+            "pathsnorm": 0.020754716981132078
         }
     },
     {
@@ -3180,8 +2970,8 @@
         "type": "Feature",
         "id": "G16",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.7,
+            "pathsnorm": 0.08867924528301888
         }
     },
     {
@@ -3215,8 +3005,8 @@
         "type": "Feature",
         "id": "G17",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 1.4,
+            "pathsnorm": 0.02641509433962264
         }
     },
     {
@@ -3250,8 +3040,8 @@
         "type": "Feature",
         "id": "G18",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -3285,8 +3075,8 @@
         "type": "Feature",
         "id": "G19",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 3.2,
+            "pathsnorm": 0.06037735849056604
         }
     },
     {
@@ -3320,8 +3110,8 @@
         "type": "Feature",
         "id": "G20",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.1,
+            "pathsnorm": 0.020754716981132078
         }
     },
     {
@@ -3355,8 +3145,8 @@
         "type": "Feature",
         "id": "G21",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -3390,8 +3180,8 @@
         "type": "Feature",
         "id": "G22",
         "properties": {
-            "paths": 12,
-            "pathsnorm": 0.21428571428571427
+            "paths": 8.1,
+            "pathsnorm": 0.15283018867924528
         }
     },
     {
@@ -3425,8 +3215,8 @@
         "type": "Feature",
         "id": "G23",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.1,
+            "pathsnorm": 0.020754716981132078
         }
     },
     {
@@ -3460,8 +3250,8 @@
         "type": "Feature",
         "id": "H9",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.5,
+            "pathsnorm": 0.04716981132075472
         }
     },
     {
@@ -3495,8 +3285,8 @@
         "type": "Feature",
         "id": "H10",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 8.1,
+            "pathsnorm": 0.15283018867924528
         }
     },
     {
@@ -3530,8 +3320,8 @@
         "type": "Feature",
         "id": "H11",
         "properties": {
-            "paths": 15,
-            "pathsnorm": 0.26785714285714285
+            "paths": 7.699999999999999,
+            "pathsnorm": 0.14528301886792452
         }
     },
     {
@@ -3565,8 +3355,8 @@
         "type": "Feature",
         "id": "H12",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 7.1,
+            "pathsnorm": 0.1339622641509434
         }
     },
     {
@@ -3600,8 +3390,8 @@
         "type": "Feature",
         "id": "H13",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.1,
+            "pathsnorm": 0.07735849056603773
         }
     },
     {
@@ -3635,8 +3425,8 @@
         "type": "Feature",
         "id": "H14",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 2.1,
+            "pathsnorm": 0.03962264150943397
         }
     },
     {
@@ -3670,8 +3460,8 @@
         "type": "Feature",
         "id": "H15",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 3.8000000000000003,
+            "pathsnorm": 0.07169811320754718
         }
     },
     {
@@ -3705,8 +3495,8 @@
         "type": "Feature",
         "id": "H16",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
+            "paths": 8.5,
+            "pathsnorm": 0.16037735849056603
         }
     },
     {
@@ -3740,8 +3530,8 @@
         "type": "Feature",
         "id": "H17",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 3.1000000000000005,
+            "pathsnorm": 0.05849056603773586
         }
     },
     {
@@ -3775,8 +3565,8 @@
         "type": "Feature",
         "id": "H18",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 2.5000000000000004,
+            "pathsnorm": 0.04716981132075473
         }
     },
     {
@@ -3810,8 +3600,8 @@
         "type": "Feature",
         "id": "H19",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 2.7,
+            "pathsnorm": 0.0509433962264151
         }
     },
     {
@@ -3845,8 +3635,8 @@
         "type": "Feature",
         "id": "H20",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 2.1,
+            "pathsnorm": 0.03962264150943397
         }
     },
     {
@@ -3880,8 +3670,8 @@
         "type": "Feature",
         "id": "H21",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 4.5,
+            "pathsnorm": 0.08490566037735849
         }
     },
     {
@@ -3915,8 +3705,8 @@
         "type": "Feature",
         "id": "H22",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 6.5,
+            "pathsnorm": 0.12264150943396226
         }
     },
     {
@@ -3950,8 +3740,8 @@
         "type": "Feature",
         "id": "H23",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.7,
+            "pathsnorm": 0.08867924528301888
         }
     },
     {
@@ -3985,8 +3775,8 @@
         "type": "Feature",
         "id": "J8",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 3.0,
+            "pathsnorm": 0.05660377358490566
         }
     },
     {
@@ -4020,8 +3810,8 @@
         "type": "Feature",
         "id": "J9",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 6.0,
+            "pathsnorm": 0.11320754716981132
         }
     },
     {
@@ -4055,8 +3845,8 @@
         "type": "Feature",
         "id": "J10",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 5.3,
+            "pathsnorm": 0.09999999999999999
         }
     },
     {
@@ -4090,8 +3880,8 @@
         "type": "Feature",
         "id": "J11",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 1.1,
+            "pathsnorm": 0.020754716981132078
         }
     },
     {
@@ -4125,8 +3915,8 @@
         "type": "Feature",
         "id": "J12",
         "properties": {
-            "paths": 12,
-            "pathsnorm": 0.21428571428571427
+            "paths": 8.05,
+            "pathsnorm": 0.1518867924528302
         }
     },
     {
@@ -4160,8 +3950,8 @@
         "type": "Feature",
         "id": "J13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 2.4,
+            "pathsnorm": 0.045283018867924525
         }
     },
     {
@@ -4195,8 +3985,8 @@
         "type": "Feature",
         "id": "J14",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 1.7000000000000006,
+            "pathsnorm": 0.03207547169811322
         }
     },
     {
@@ -4230,8 +4020,8 @@
         "type": "Feature",
         "id": "J15",
         "properties": {
-            "paths": 9,
-            "pathsnorm": 0.16071428571428573
+            "paths": 4.0,
+            "pathsnorm": 0.07547169811320754
         }
     },
     {
@@ -4265,8 +4055,8 @@
         "type": "Feature",
         "id": "J16",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
+            "paths": 3.0000000000000004,
+            "pathsnorm": 0.05660377358490567
         }
     },
     {
@@ -4300,8 +4090,8 @@
         "type": "Feature",
         "id": "J17",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 1.2000000000000002,
+            "pathsnorm": 0.022641509433962266
         }
     },
     {
@@ -4335,8 +4125,8 @@
         "type": "Feature",
         "id": "J18",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 2.4,
+            "pathsnorm": 0.045283018867924525
         }
     },
     {
@@ -4370,8 +4160,8 @@
         "type": "Feature",
         "id": "J19",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 2.8,
+            "pathsnorm": 0.05283018867924528
         }
     },
     {
@@ -4405,8 +4195,8 @@
         "type": "Feature",
         "id": "J20",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -4440,8 +4230,8 @@
         "type": "Feature",
         "id": "J21",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.2,
+            "pathsnorm": 0.041509433962264156
         }
     },
     {
@@ -4475,8 +4265,8 @@
         "type": "Feature",
         "id": "J22",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 7.699999999999999,
+            "pathsnorm": 0.14528301886792452
         }
     },
     {
@@ -4510,43 +4300,8 @@
         "type": "Feature",
         "id": "J23",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.745274,
-                        35.086672
-                    ],
-                    [
-                        -106.745186,
-                        35.072165
-                    ],
-                    [
-                        -106.762907,
-                        35.072092
-                    ],
-                    [
-                        -106.762997,
-                        35.086598
-                    ],
-                    [
-                        -106.745274,
-                        35.086672
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "K8",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -4580,8 +4335,8 @@
         "type": "Feature",
         "id": "K9",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.6,
+            "pathsnorm": 0.08679245283018867
         }
     },
     {
@@ -4615,8 +4370,8 @@
         "type": "Feature",
         "id": "K10",
         "properties": {
-            "paths": 12,
-            "pathsnorm": 0.21428571428571427
+            "paths": 4.6,
+            "pathsnorm": 0.08679245283018867
         }
     },
     {
@@ -4650,8 +4405,8 @@
         "type": "Feature",
         "id": "K11",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -4685,8 +4440,8 @@
         "type": "Feature",
         "id": "K12",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 2.4,
+            "pathsnorm": 0.045283018867924525
         }
     },
     {
@@ -4720,8 +4475,8 @@
         "type": "Feature",
         "id": "K13",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 3.6,
+            "pathsnorm": 0.06792452830188679
         }
     },
     {
@@ -4755,8 +4510,8 @@
         "type": "Feature",
         "id": "K14",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 4.15,
+            "pathsnorm": 0.07830188679245284
         }
     },
     {
@@ -4790,8 +4545,8 @@
         "type": "Feature",
         "id": "K15",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
+            "paths": 4.35,
+            "pathsnorm": 0.0820754716981132
         }
     },
     {
@@ -4825,8 +4580,8 @@
         "type": "Feature",
         "id": "K16",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
+            "paths": 3.5500000000000003,
+            "pathsnorm": 0.0669811320754717
         }
     },
     {
@@ -4860,78 +4615,8 @@
         "type": "Feature",
         "id": "K17",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.568035,
-                        35.087266
-                    ],
-                    [
-                        -106.567979,
-                        35.072759
-                    ],
-                    [
-                        -106.585699,
-                        35.072711
-                    ],
-                    [
-                        -106.585759,
-                        35.087218
-                    ],
-                    [
-                        -106.568035,
-                        35.087266
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "K18",
-        "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.550311,
-                        35.087311
-                    ],
-                    [
-                        -106.550258,
-                        35.072804
-                    ],
-                    [
-                        -106.567979,
-                        35.072759
-                    ],
-                    [
-                        -106.568035,
-                        35.087266
-                    ],
-                    [
-                        -106.550311,
-                        35.087311
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "K19",
-        "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.25,
+            "pathsnorm": 0.04245283018867924
         }
     },
     {
@@ -4965,8 +4650,8 @@
         "type": "Feature",
         "id": "K20",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 3.5000000000000004,
+            "pathsnorm": 0.06603773584905662
         }
     },
     {
@@ -5000,8 +4685,8 @@
         "type": "Feature",
         "id": "K21",
         "properties": {
-            "paths": 12,
-            "pathsnorm": 0.21428571428571427
+            "paths": 6.499999999999999,
+            "pathsnorm": 0.12264150943396225
         }
     },
     {
@@ -5035,8 +4720,8 @@
         "type": "Feature",
         "id": "K22",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.7,
+            "pathsnorm": 0.0509433962264151
         }
     },
     {
@@ -5070,43 +4755,8 @@
         "type": "Feature",
         "id": "K23",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.780627,
-                        35.072016
-                    ],
-                    [
-                        -106.780533,
-                        35.05751
-                    ],
-                    [
-                        -106.79825,
-                        35.057431
-                    ],
-                    [
-                        -106.798347,
-                        35.071937
-                    ],
-                    [
-                        -106.780627,
-                        35.072016
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L6",
-        "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 4.300000000000001,
+            "pathsnorm": 0.08113207547169812
         }
     },
     {
@@ -5140,8 +4790,8 @@
         "type": "Feature",
         "id": "L8",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 3.2,
+            "pathsnorm": 0.06037735849056604
         }
     },
     {
@@ -5175,8 +4825,8 @@
         "type": "Feature",
         "id": "L9",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.5,
+            "pathsnorm": 0.08490566037735849
         }
     },
     {
@@ -5210,8 +4860,8 @@
         "type": "Feature",
         "id": "L10",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 7.0,
+            "pathsnorm": 0.1320754716981132
         }
     },
     {
@@ -5245,43 +4895,8 @@
         "type": "Feature",
         "id": "L11",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.674304,
-                        35.072434
-                    ],
-                    [
-                        -106.674229,
-                        35.057928
-                    ],
-                    [
-                        -106.691946,
-                        35.057865
-                    ],
-                    [
-                        -106.692024,
-                        35.072371
-                    ],
-                    [
-                        -106.674304,
-                        35.072434
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L12",
-        "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -5315,8 +4930,8 @@
         "type": "Feature",
         "id": "L13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 5.199999999999999,
+            "pathsnorm": 0.0981132075471698
         }
     },
     {
@@ -5350,8 +4965,8 @@
         "type": "Feature",
         "id": "L14",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 2.3,
+            "pathsnorm": 0.04339622641509434
         }
     },
     {
@@ -5385,8 +5000,8 @@
         "type": "Feature",
         "id": "L15",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.2,
+            "pathsnorm": 0.041509433962264156
         }
     },
     {
@@ -5420,8 +5035,8 @@
         "type": "Feature",
         "id": "L16",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 3.7,
+            "pathsnorm": 0.06981132075471698
         }
     },
     {
@@ -5455,113 +5070,8 @@
         "type": "Feature",
         "id": "L17",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.567979,
-                        35.072759
-                    ],
-                    [
-                        -106.567922,
-                        35.058253
-                    ],
-                    [
-                        -106.58564,
-                        35.058205
-                    ],
-                    [
-                        -106.585699,
-                        35.072711
-                    ],
-                    [
-                        -106.567979,
-                        35.072759
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L18",
-        "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.550258,
-                        35.072804
-                    ],
-                    [
-                        -106.550204,
-                        35.058298
-                    ],
-                    [
-                        -106.567922,
-                        35.058253
-                    ],
-                    [
-                        -106.567979,
-                        35.072759
-                    ],
-                    [
-                        -106.550258,
-                        35.072804
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L19",
-        "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.532537,
-                        35.072847
-                    ],
-                    [
-                        -106.532487,
-                        35.05834
-                    ],
-                    [
-                        -106.550204,
-                        35.058298
-                    ],
-                    [
-                        -106.550258,
-                        35.072804
-                    ],
-                    [
-                        -106.532537,
-                        35.072847
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L20",
-        "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -5595,8 +5105,8 @@
         "type": "Feature",
         "id": "L21",
         "properties": {
-            "paths": 8,
-            "pathsnorm": 0.14285714285714285
+            "paths": 4.3,
+            "pathsnorm": 0.08113207547169811
         }
     },
     {
@@ -5630,8 +5140,8 @@
         "type": "Feature",
         "id": "L22",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 6.8,
+            "pathsnorm": 0.12830188679245283
         }
     },
     {
@@ -5665,78 +5175,8 @@
         "type": "Feature",
         "id": "L23",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.461654,
-                        35.072991
-                    ],
-                    [
-                        -106.461617,
-                        35.058484
-                    ],
-                    [
-                        -106.479334,
-                        35.058453
-                    ],
-                    [
-                        -106.479374,
-                        35.072959
-                    ],
-                    [
-                        -106.461654,
-                        35.072991
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "L24",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.780533,
-                        35.05751
-                    ],
-                    [
-                        -106.780439,
-                        35.043003
-                    ],
-                    [
-                        -106.798153,
-                        35.042924
-                    ],
-                    [
-                        -106.79825,
-                        35.057431
-                    ],
-                    [
-                        -106.780533,
-                        35.05751
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "M6",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 6.999999999999999,
+            "pathsnorm": 0.13207547169811318
         }
     },
     {
@@ -5770,8 +5210,8 @@
         "type": "Feature",
         "id": "M8",
         "properties": {
-            "paths": 5,
-            "pathsnorm": 0.08928571428571429
+            "paths": 2.7,
+            "pathsnorm": 0.0509433962264151
         }
     },
     {
@@ -5805,8 +5245,8 @@
         "type": "Feature",
         "id": "M9",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 4.1,
+            "pathsnorm": 0.07735849056603773
         }
     },
     {
@@ -5840,78 +5280,8 @@
         "type": "Feature",
         "id": "M10",
         "properties": {
-            "paths": 13,
-            "pathsnorm": 0.23214285714285715
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.691946,
-                        35.057865
-                    ],
-                    [
-                        -106.691868,
-                        35.043358
-                    ],
-                    [
-                        -106.709582,
-                        35.043292
-                    ],
-                    [
-                        -106.709664,
-                        35.057799
-                    ],
-                    [
-                        -106.691946,
-                        35.057865
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "M11",
-        "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.674229,
-                        35.057928
-                    ],
-                    [
-                        -106.674154,
-                        35.043421
-                    ],
-                    [
-                        -106.691868,
-                        35.043358
-                    ],
-                    [
-                        -106.691946,
-                        35.057865
-                    ],
-                    [
-                        -106.674229,
-                        35.057928
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "M12",
-        "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 12.5,
+            "pathsnorm": 0.2358490566037736
         }
     },
     {
@@ -5945,8 +5315,8 @@
         "type": "Feature",
         "id": "M13",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 2.6,
+            "pathsnorm": 0.04905660377358491
         }
     },
     {
@@ -5980,43 +5350,8 @@
         "type": "Feature",
         "id": "M14",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.621076,
-                        35.058102
-                    ],
-                    [
-                        -106.62101,
-                        35.043595
-                    ],
-                    [
-                        -106.638724,
-                        35.04354
-                    ],
-                    [
-                        -106.638794,
-                        35.058047
-                    ],
-                    [
-                        -106.621076,
-                        35.058102
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "M15",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -6050,8 +5385,8 @@
         "type": "Feature",
         "id": "M16",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 3.1,
+            "pathsnorm": 0.05849056603773585
         }
     },
     {
@@ -6085,8 +5420,8 @@
         "type": "Feature",
         "id": "M17",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 3.5,
+            "pathsnorm": 0.0660377358490566
         }
     },
     {
@@ -6120,8 +5455,8 @@
         "type": "Feature",
         "id": "M18",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 2.8,
+            "pathsnorm": 0.05283018867924528
         }
     },
     {
@@ -6155,8 +5490,8 @@
         "type": "Feature",
         "id": "M19",
         "properties": {
-            "paths": 6,
-            "pathsnorm": 0.10714285714285714
+            "paths": 4.2,
+            "pathsnorm": 0.07924528301886793
         }
     },
     {
@@ -6190,8 +5525,8 @@
         "type": "Feature",
         "id": "M20",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 1.6,
+            "pathsnorm": 0.03018867924528302
         }
     },
     {
@@ -6225,8 +5560,8 @@
         "type": "Feature",
         "id": "M21",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 2.6,
+            "pathsnorm": 0.04905660377358491
         }
     },
     {
@@ -6260,8 +5595,8 @@
         "type": "Feature",
         "id": "M23",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -6295,8 +5630,8 @@
         "type": "Feature",
         "id": "N9",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 8.0,
+            "pathsnorm": 0.1509433962264151
         }
     },
     {
@@ -6330,78 +5665,8 @@
         "type": "Feature",
         "id": "N10",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.691868,
-                        35.043358
-                    ],
-                    [
-                        -106.69179,
-                        35.028851
-                    ],
-                    [
-                        -106.709501,
-                        35.028786
-                    ],
-                    [
-                        -106.709582,
-                        35.043292
-                    ],
-                    [
-                        -106.691868,
-                        35.043358
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "N11",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.674154,
-                        35.043421
-                    ],
-                    [
-                        -106.674078,
-                        35.028915
-                    ],
-                    [
-                        -106.69179,
-                        35.028851
-                    ],
-                    [
-                        -106.691868,
-                        35.043358
-                    ],
-                    [
-                        -106.674154,
-                        35.043421
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "N12",
-        "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 5.1,
+            "pathsnorm": 0.09622641509433962
         }
     },
     {
@@ -6435,78 +5700,8 @@
         "type": "Feature",
         "id": "N13",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.62101,
-                        35.043595
-                    ],
-                    [
-                        -106.620944,
-                        35.029089
-                    ],
-                    [
-                        -106.638656,
-                        35.029033
-                    ],
-                    [
-                        -106.638724,
-                        35.04354
-                    ],
-                    [
-                        -106.62101,
-                        35.043595
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "N15",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.567866,
-                        35.043746
-                    ],
-                    [
-                        -106.56781,
-                        35.029239
-                    ],
-                    [
-                        -106.585521,
-                        35.029192
-                    ],
-                    [
-                        -106.585581,
-                        35.043699
-                    ],
-                    [
-                        -106.567866,
-                        35.043746
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "N18",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -6540,8 +5735,8 @@
         "type": "Feature",
         "id": "N19",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -6575,78 +5770,8 @@
         "type": "Feature",
         "id": "N20",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.780346,
-                        35.028497
-                    ],
-                    [
-                        -106.780252,
-                        35.013991
-                    ],
-                    [
-                        -106.79796,
-                        35.013912
-                    ],
-                    [
-                        -106.798056,
-                        35.028418
-                    ],
-                    [
-                        -106.780346,
-                        35.028497
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "P6",
-        "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.762635,
-                        35.028573
-                    ],
-                    [
-                        -106.762544,
-                        35.014067
-                    ],
-                    [
-                        -106.780252,
-                        35.013991
-                    ],
-                    [
-                        -106.780346,
-                        35.028497
-                    ],
-                    [
-                        -106.762635,
-                        35.028573
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "P7",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -6680,8 +5805,8 @@
         "type": "Feature",
         "id": "P8",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
+            "paths": 1.9,
+            "pathsnorm": 0.035849056603773584
         }
     },
     {
@@ -6715,113 +5840,8 @@
         "type": "Feature",
         "id": "P9",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.709501,
-                        35.028786
-                    ],
-                    [
-                        -106.70942,
-                        35.014279
-                    ],
-                    [
-                        -106.727128,
-                        35.014211
-                    ],
-                    [
-                        -106.727212,
-                        35.028717
-                    ],
-                    [
-                        -106.709501,
-                        35.028786
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "P10",
-        "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.69179,
-                        35.028851
-                    ],
-                    [
-                        -106.691712,
-                        35.014345
-                    ],
-                    [
-                        -106.70942,
-                        35.014279
-                    ],
-                    [
-                        -106.709501,
-                        35.028786
-                    ],
-                    [
-                        -106.69179,
-                        35.028851
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "P11",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.674078,
-                        35.028915
-                    ],
-                    [
-                        -106.674004,
-                        35.014408
-                    ],
-                    [
-                        -106.691712,
-                        35.014345
-                    ],
-                    [
-                        -106.69179,
-                        35.028851
-                    ],
-                    [
-                        -106.674078,
-                        35.028915
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "P12",
-        "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 4.4,
+            "pathsnorm": 0.08301886792452831
         }
     },
     {
@@ -6855,8 +5875,8 @@
         "type": "Feature",
         "id": "P13",
         "properties": {
-            "paths": 7,
-            "pathsnorm": 0.125
+            "paths": 5.4,
+            "pathsnorm": 0.1018867924528302
         }
     },
     {
@@ -6890,8 +5910,8 @@
         "type": "Feature",
         "id": "P14",
         "properties": {
-            "paths": 11,
-            "pathsnorm": 0.19642857142857142
+            "paths": 8.6,
+            "pathsnorm": 0.16226415094339622
         }
     },
     {
@@ -6925,43 +5945,8 @@
         "type": "Feature",
         "id": "P15",
         "properties": {
-            "paths": 4,
-            "pathsnorm": 0.07142857142857142
-        }
-    },
-    {
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-                [
-                    [
-                        -106.674004,
-                        35.014408
-                    ],
-                    [
-                        -106.673929,
-                        34.999902
-                    ],
-                    [
-                        -106.691634,
-                        34.999839
-                    ],
-                    [
-                        -106.691712,
-                        35.014345
-                    ],
-                    [
-                        -106.674004,
-                        35.014408
-                    ]
-                ]
-            ]
-        },
-        "type": "Feature",
-        "id": "Q12",
-        "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 2.7,
+            "pathsnorm": 0.0509433962264151
         }
     },
     {
@@ -6995,8 +5980,8 @@
         "type": "Feature",
         "id": "Q13",
         "properties": {
-            "paths": 10,
-            "pathsnorm": 0.17857142857142858
+            "paths": 8.799999999999999,
+            "pathsnorm": 0.1660377358490566
         }
     },
     {
@@ -7030,8 +6015,8 @@
         "type": "Feature",
         "id": "Q14",
         "properties": {
-            "paths": 1,
-            "pathsnorm": 0.017857142857142856
+            "paths": 1.0,
+            "pathsnorm": 0.018867924528301886
         }
     },
     {
@@ -7065,8 +6050,8 @@
         "type": "Feature",
         "id": "Q15",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     },
     {
@@ -7100,8 +6085,8 @@
         "type": "Feature",
         "id": "R15",
         "properties": {
-            "paths": 2,
-            "pathsnorm": 0.03571428571428571
+            "paths": 1.5,
+            "pathsnorm": 0.02830188679245283
         }
     },
     {
@@ -7135,8 +6120,8 @@
         "type": "Feature",
         "id": "N8",
         "properties": {
-            "paths": 3,
-            "pathsnorm": 0.05357142857142857
+            "paths": 2.0,
+            "pathsnorm": 0.03773584905660377
         }
     }
 ]

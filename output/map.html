@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <head>
-   <title>Albuquerque Bikeability: How bikeable are ABQ's neighborhoods?</title>
-   <meta name="viewport" content="width=device-width, user-scalable=no">
    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
    <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -11,17 +9,6 @@
    
    
 <style>
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-#map {
-  position: absolute;
-  top: 0; left: 0;
-  height: 100%; width: 100%;
-}
 
 .legend {
     padding: 0px 0px;
@@ -40,7 +27,7 @@ body {
 </head>
 <body>
 
-  <div id="map"></div>
+        <div id="map" style="width: 960px; height: 500px"></div>
 
 <script>
 
@@ -61,7 +48,7 @@ function makeMap(error, data_1,gjson_1) {
 
     
     var color = d3.scale.threshold()
-              .domain([1.0, 6.0, 8.0, 10.0, 10.0])
+              .domain([1.0, 4.0, 6.0, 7.0, 8.0])
               .range(['#FFFFCC', '#D9F0A3', '#ADDD8E', '#78C679', '#41AB5D', '#238443']);
     
 
@@ -102,7 +89,7 @@ function makeMap(error, data_1,gjson_1) {
     legend.addTo(map);
 
     var x = d3.scale.linear()
-    .domain([0, 11])
+    .domain([0, 8])
     .range([0, 400]);
 
     var xAxis = d3.svg.axis()

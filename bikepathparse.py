@@ -1,6 +1,7 @@
 # bikepathparse.py
 
 import lxml.etree
+import lxml.html
 
 # Bike path type weighting
 # Weights reflecting the relative impact of different bike path types.

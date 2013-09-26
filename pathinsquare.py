@@ -18,10 +18,10 @@ def insertpoints(path):
     
     # Insert points as needed. Adjust loop imax accordingly.
     i = 0
-    imax = len(path) - 1
+    imax = len(path['coordinates']) - 1
     while i < imax:
-        if dist(path[i],path[i+1]) < threshold:
-            path = path[:i+1] + [splitpoints(path[i],path[i+1])] + path[i+1:]
+        if dist(path['coordinates'][i],path['coordinates'][i+1]) < threshold:
+            path['coordinates'] = path['coordinates'][:i+1] + [splitpoints(path['coordinates'][i],path['coordinates'][i+1])] + path['coordinates'][i+1:]
             i += 2
             imax += 1
         else:
@@ -63,9 +63,9 @@ def pathtally(args):
     tally = 0
     
     for path in paths:
-        for point in path:
+        for point in path['coordinates']:
             if nx.pnpoly(point[0],point[1],square[:-1]):
-                tally += 1
+                tally += path['weight']
                 break
     
     return tally
