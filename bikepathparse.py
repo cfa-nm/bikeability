@@ -2,6 +2,17 @@
 
 import lxml.etree
 
+# Bike path type weighting
+# Weights reflecting the relative impact of different bike path types.
+# These weights are relatively arbitrary and may be adjusted via some trial and error.
+weights = {'MultiUseTrail':1.0,
+            'BikeBlvd':0.75,
+            'BikeCrossing':0.6,
+            'BikeLane':0.5,
+            'Null':0.5,
+            'WideRoad': 0.2,
+            'BikeRoute':0.1}
+
 # KML namespace
 kmlns = '{http://earth.google.com/kml/2.2}'
 
@@ -26,12 +37,12 @@ def bikepathparse(filename):
     bpaths = []
 
     for i in range(len(pcoords)):
-        # Extract path type, name, and length (miles) from embedded HTML
+        # Extract path type, name, and length (miles) from embedded HTML and add path weight
         ptype,pname,plen = lxml.html.fromstring(mds[i].text).text_content().split('\n\n')[5:-2][0::2]
         if ptype == '&lt;Null&gt;':
             ptype = 'Null'
         
-        bpaths += [{'type':ptype,'name':pname,'length':plen,'coordinates':paths[i]}]
+        bpaths += [{'type':ptype,'name':pname,'length':plen,'coordinates':paths[i],'weight':weights[ptype]}]
 
     return bpaths
 
