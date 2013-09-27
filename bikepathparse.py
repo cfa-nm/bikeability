@@ -6,13 +6,13 @@ import lxml.html
 # Bike path type weighting
 # Weights reflecting the relative impact of different bike path types.
 # These weights are relatively arbitrary and may be adjusted via some trial and error.
-weights = {'MultiUseTrail':1.0,
-            'BikeBlvd':0.75,
-            'BikeCrossing':0.6,
-            'BikeLane':0.5,
-            'Null':0.5,
-            'WideRoad': 0.2,
-            'BikeRoute':0.1}
+weights = {'MultiUseTrail':10.0,
+            'BikeBlvd':7.5,
+            'BikeCrossing':6.0,
+            'BikeLane':5.0,
+            'Null':5.0,
+            'WideRoad':2.0,
+            'BikeRoute':1.0}
 
 # KML namespace
 kmlns = '{http://earth.google.com/kml/2.2}'
