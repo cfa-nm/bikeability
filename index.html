@@ -45,8 +45,8 @@ body {
 <script>
 
 queue()
-    .defer(d3.json, 'data.json')
-    .defer(d3.json, 'ABQsquares.json')
+    .defer(d3.json, 'data/data.json')
+    .defer(d3.json, 'data/ABQsquares.json')
     .await(makeMap)
 
 function makeMap(error, data_1,gjson_1) {
@@ -137,7 +137,7 @@ function makeMap(error, data_1,gjson_1) {
     g.call(xAxis).append("text")
         .attr("class", "caption")
         .attr("y", 21)
-        .text('paths');
+        .text('Bikeability Score (higher = better)');
     
 
 };
