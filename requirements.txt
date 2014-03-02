@@ -1,6 +1,6 @@
 jinja2
 numpy
 pandas
-git+git://github.com/wrobstory/folium.git@7169d08d2c07b3c71e81fcd78408bbf444364e2f#egg=folium
+git+git://github.com/wrobstory/folium.git#egg=folium
 lxml
 matplotlib==1.1.1
